@@ -1,7 +1,8 @@
 # Loggbok
 
 ## Målet
-Brevlåda med magnetsensor
+Brevlåda med magnetsensor. 
+
 Vald brevlåda: Låsbar brevlåda av galvaniserad plåt, 27 x 34 cm | Clas Ohlson
 
 ## Tidsplan / Mål
