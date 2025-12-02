@@ -18,7 +18,7 @@ Idag gjorde vi en tidsplan för projektet, vi valde vilken brevlåda vi ska inf�
 
 **3 dec – Onsdag**
 
-Varsin Lo-fi prototyping (Skiss) på hur hemsidan skulle kunna se ut. Idéer, tankar och förslag på utseende och funktioner. 
+Varsin Lo-fi prototyping (pappersskiss) på hur hemsidan skulle kunna se ut. Idéer, tankar och förslag på utseende och funktioner. 
 
 **4 dec – Torsdag**
 
