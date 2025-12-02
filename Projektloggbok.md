@@ -21,6 +21,7 @@ Idag gjorde vi en tidsplan för projektet, vi valde vilken brevlåda vi ska inf�
 Varsin Lo-fi prototyping (Skiss) på hur hemsidan skulle kunna se ut. Idéer, tankar och förslag på utseende och funktioner. 
 
 **4 dec – Torsdag**
+
 Komma överens om en gemensam skiss, baserad på våra olika skisser och därefter börjar Mathea på en hi-fi prototyp i Figma.
 Få sensorn att fungera.
 Börja jobb på brevlåda samt hemsidan parallellt.
@@ -28,8 +29,7 @@ Prioritera bli klar med brevlådan.
 
 **5 dec – Fredag**
 
-Presentation av läget just nu
-Målet är att ha en färdig brevlåda som vi kan få data ifrån och visa det.
+Presentation av läget just nu. Målet är att ha en färdig brevlåda som vi kan få data ifrån och visa det.
 
 **8 dec – Måndag**
 
