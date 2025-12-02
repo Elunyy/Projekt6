@@ -14,7 +14,7 @@ Vald brevlåda: Låsbar brevlåda av galvaniserad plåt, 27 x 34 cm | Clas Ohlso
 ## Daglig loggbok
 **2 dec – Tisdag**
 
-Idag gjorde vi en tidsplan för projektet, vi valde vilken brevlåda vi ska införskaffa och införskaffade den sen. Vi gjorde research om magnetsensorn och tog reda på hur den fungerar samt hur den ska implementeras på bästa vis i vår brevlåda. Vi valde gruppledare – Eline, samt att vi använder Afnans plusivo-kit då det innehåller de materialen vi behöver.
+Idag gjorde vi en tidsplan för projektet, vi valde vilken brevlåda vi ska införskaffa och införskaffade den sen. Vi gjorde research om magnetsensorn och tog reda på hur den fungerar samt hur den ska implementeras på bästa vis i vår brevlåda. Vi valde gruppledare – Eline, samt bestämde att vi använder Afnans plusivo-kit då det innehåller de materialen vi behöver.
 
 **3 dec – Onsdag**
 
