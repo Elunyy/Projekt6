@@ -1,15 +1,15 @@
 # Loggbok
-
+ 
 ## Målet
-Brevlåda med magnetsensor. 
+Brevlåda med magnetsensor som därmed kommuncierar när posten kommit eller brevlådan öppnats.
 
 Vald brevlåda: Låsbar brevlåda av galvaniserad plåt, 27 x 34 cm | Clas Ohlson
 
 ## Tidsplan / Mål
 1.	Få sensor att fungera
-2.	Göra en hemsida som visualiserar data
-3.	Bygga brevlådan
-4.	Testa / utvärdera
+2.	Bygga brevlådan
+3.	Göra en hemsida som visualiserar data och ger kunskap
+4.	Testa / utvärdera (även löpande under arbetet)
 5.	Göra en slutpresentation
 
 ## Daglig loggbok
@@ -23,18 +23,17 @@ Varsin Lo-fi prototyping (pappersskiss) på hur hemsidan skulle kunna se ut. Id�
 
 **4 dec – Torsdag**
 
-Komma överens om en gemensam skiss, baserad på våra olika skisser och därefter börjar Mathea på en hi-fi prototyp i Figma.
-Få sensorn att fungera.
-Börja jobb på brevlåda samt hemsidan parallellt.
-Prioritera bli klar med brevlådan.
+Vi kom överens om en gemensam skiss, baserad på våra olika skisser. Därefter började vi skapa en hi-fi prototyp i Figma. Vi var i verkstaden och tog reda på hur vår sensor fungerer och vi fick reda på att den var NO (naturally open). 
 
 **5 dec – Fredag**
 
-Presentation av läget just nu. Målet är att ha en färdig brevlåda som vi kan få data ifrån och visa det.
+Presentation av läget just nu. 
+
+Målet är att ha en färdig brevlåda som vi kan få data ifrån och visa det.
 
 **8 dec – Måndag**
 
-Jobba på hemsidan.
+Bygga brevlådan och kunna dra data ifrån sensorn.
 
 **9 dec – Tisdag**
 
@@ -52,7 +51,7 @@ Gör presentationen på em.
 **12 dec – Fredag**
 
 Presentation av läget just nu.
-Målet är att ha en produkt som är nära slutprodukten.
+Målet är att vi vill ha en produkt som är nära slutprodukten.
 
 **15 dec – Måndag**
 
@@ -64,7 +63,7 @@ Gör slutpresentation
 
 **17 dec – Onsdag**
 
-Ledigt om möjligt
+Träna på slutpresentation
 
 **18 dec – Torsdag**
 
