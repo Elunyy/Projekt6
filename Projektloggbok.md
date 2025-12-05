@@ -2,6 +2,8 @@
  
 ## Målet
 Brevlåda med magnetsensor som därmed kommuncierar när posten kommit eller brevlådan öppnats.
+<img width="1000" height="874" alt="image" src="https://github.com/user-attachments/assets/7c6d2dcb-5436-46ee-9f8b-b593cb0730da" />
+
 
 ## Prototyp
 <img width="513" height="366" alt="Screenshot 2025-12-05 at 10 07 24" src="https://github.com/user-attachments/assets/519c59c6-de1e-4741-a221-d24f6b750c14" />
