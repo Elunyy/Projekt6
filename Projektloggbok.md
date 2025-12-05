@@ -3,7 +3,9 @@
 ## Målet
 Brevlåda med magnetsensor som därmed kommuncierar när posten kommit eller brevlådan öppnats.
 
-Vald brevlåda: Låsbar brevlåda av galvaniserad plåt, 27 x 34 cm | Clas Ohlson
+## Prototyp
+<img width="513" height="366" alt="Screenshot 2025-12-05 at 10 07 24" src="https://github.com/user-attachments/assets/519c59c6-de1e-4741-a221-d24f6b750c14" />
+
 
 ## Tidsplan / Mål
 1.	Få sensor att fungera
