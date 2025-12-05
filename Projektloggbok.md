@@ -41,25 +41,25 @@ Bygga brevlådan och kunna dra data ifrån sensorn.
 
 **9 dec – Tisdag**
 
-Jobba på hemsidan
+Jobba på visualisering av data
 
 **10 dec – Onsdag**
 
-Jobba på hemsidan
+Jobba på visualisering av data
 
 **11 dec – Torsdag**
 
-Jobba på hemsidan på fm.
+Jobba på hemsidan fm.
 Gör presentationen på em.
 
 **12 dec – Fredag**
 
-Presentation av läget just nu.
-Målet är att vi vill ha en produkt som är nära slutprodukten.
+Presentation av läget just nu
+Målet är att vi vill ha en produkt som är nära slutprodukten
 
 **15 dec – Måndag**
 
-Jobba på hemsidan
+Jobba vidare på hemsidan
 
 **16 dec – Tisdag**
 
