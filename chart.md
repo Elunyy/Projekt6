@@ -31,7 +31,7 @@ void loop() {
 }
 ```
 Mathea:
-
+Research för magnetsensorn. Lo-fi skissprototyp, Hi-Fi figmaprototyp. 
 Karina:
 
 Afnan:
