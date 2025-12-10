@@ -8,6 +8,9 @@ Exempel möjliga lärdomar:
 # JS-kod
 
 <h2>Eline:</h2>
+
+Kod för magnetsensorn:
+
 ```c++
 const int Sensor = 13;
 bool sensorValue;
