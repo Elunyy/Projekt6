@@ -7,7 +7,7 @@ Exempel möjliga lärdomar:
 
 # JS-kod
 
-Eline:
+<h2>Eline:</h2>
 ```c++
 const int Sensor = 13;
 bool sensorValue;
@@ -30,10 +30,12 @@ void loop() {
   }
 }
 ```
-Mathea:
+<h2>Mathea:</h2>
+
 Research för magnetsensorn. Lo-fi skissprototyp, Hi-Fi figmaprototyp. 
-Karina:
 
-Afnan:
+<h2>Karina:</h2>
 
-Ikran:
+<h2>Afnan:</h2>
+
+<h2>Ikran:</h2>
