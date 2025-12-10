@@ -1,14 +1,11 @@
-Tjenamors
+Filen "chart.md" skall med minimalt använda ord, påvisa med lärorika exempel ett vad du lärt dig under veckan
+Exempel möjliga lärdomar:
 
-# Filen "chart.md" skall med minimalt använda ord, påvisa med lärorika exempel ett vad du lärt dig under veckan
-Exempel möjliga lärdomar;
+# Förutsättningar för Chart (CDN, Canvas, JS)
 
-Förutsättningar för Chart (CDN, Canvas, JS)
+# HTML/CSS-kod 
 
-HTML/CSS-kod 
-
-JS-kod
-
+# JS-kod
 
 Eline:
 
