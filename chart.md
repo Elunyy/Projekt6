@@ -8,7 +8,7 @@ Exempel möjliga lärdomar:
 # JS-kod
 
 Eline:
-<code>
+```js
 const int Sensor = 13;
 bool sensorValue;
 bool prevsensorValue;
@@ -30,8 +30,7 @@ void loop() {
     delay(2000);
   }
 }
-</code>
-
+```
 Mathea:
 
 Karina:
