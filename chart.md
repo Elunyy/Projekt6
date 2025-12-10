@@ -15,7 +15,6 @@ bool prevsensorValue;
 void setup() { 
   pinMode(Sensor, INPUT);
   Serial.begin(115200);
-  // int prevsensorValue
 }
 void loop() {
     prevsensorValue = sensorValue;
