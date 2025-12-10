@@ -8,7 +8,7 @@ Exempel möjliga lärdomar:
 # JS-kod
 
 Eline:
-```js
+```c++
 const int Sensor = 13;
 bool sensorValue;
 bool prevsensorValue;
