@@ -1,7 +1,4 @@
-Filen "chart.md" skall med minimalt använda ord, påvisa med lärorika exempel ett vad du lärt dig under veckan
-Exempel möjliga lärdomar:
-
-# Likheter och skillnader på Array, Object och JSON
+# GENOMGÅNG AV VAD VI HAR LÄRT OSS VECKA 50
 
 ## Array
 En array kan lagra flera värden i en variabel
@@ -120,6 +117,40 @@ age: 25
 }); //Javascript Object to JSON
 ```
 
-# Canvas
+## Canvas
+NyTt från och med HTML5
+<canvas id="myCanvas"></canvas>
+Genom DOM manipulering kan i rita och måla
 
-# Charts
+Skapa "duk" för att måla på
+Dessa modes refereras som context i Javascript
+
+``` C++
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+</script>
+```
+
+
+Metoder att testa på Context-objektet:
+
+``` C++
+ctx.beginPath();
+ctx.moveTo(100, 10); //x, y
+ctx.lineTo(100, 90);
+ctx.lineWidth = 5;
+ctx.strokeStyle = 'red';
+ctx.stroke();
+ctx.fillStyle = 'rgba(255,0,0,0.5)'; //red with opacity (see through) of 0.5
+ctx.fillRect(30, 30, 50, 50); //draw rectangle from x1, y1 to x2, y2
+ctx.moveTo(0, 50); //start-x1, start-y1
+ctx.bezierCurveTo(75, 200, 125, -100, 200, 50); //bez-x1, bez-y1, bez-x2, bez-y2, end-x3, end-y3
+ctx.stroke(); //draw curves with bezier mathematics
+ctx.textAlign = 'left'; //left-aligned
+ctx.fillStyle = 'green'; //text color
+ctx.fillText('text', 190, 90); //draw filled text at x, y
+```
+
+
+## Charts
