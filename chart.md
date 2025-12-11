@@ -154,7 +154,10 @@ ctx.fillText('text', 190, 90); //draw filled text at x, y
 
 
 ## Charts
-Vi hade först lite svårt att få chartsen att fungera frånn Chart.js men det fungerade när vi la in följande länk i ```<head>```delen <img width="457" height="27" alt="Screenshot 2025-12-11 at 16 59 16" src="https://github.com/user-attachments/assets/a5014407-348f-4670-bbf0-35e25078dc2c" /> då fick vi följande bar chart att fungera
+Vi hade först lite svårt att få chartsen att fungera frånn Chart.js men det fungerade när vi la in följande länk i ```<head>```delen 
+<img width="457" height="27" alt="Screenshot 2025-12-11 at 16 59 16" src="https://github.com/user-attachments/assets/a5014407-348f-4670-bbf0-35e25078dc2c" /> 
+
+Med hjälp av den fick vi följande bar chart att fungera:
 
 <img width="1031" height="525" alt="Screenshot 2025-12-11 at 14 36 25" src="https://github.com/user-attachments/assets/ea453b30-bc45-4a19-8c6d-5a1c1cc9966f" />
 
@@ -193,10 +196,10 @@ Den var krångligare att lägga in för då behövde man också lägga in src l�
 
 <img width="655" height="293" alt="Screenshot 2025-12-11 at 15 40 17" src="https://github.com/user-attachments/assets/2789e532-bf84-46c6-930b-d258e43537ae" />
 
-### Fokus på målgrupp och användare
+## Fokus på målgrupp och användare
 Men även fast detta också är kunskap för anvädaren att kunna se en överblick på veckan så kom vi fram till att prioriteten är det orginella diagrammet som visar när det är mest troligt att du får posten på dagen. Därför har vi valt att återgå till att skapa det diagrammet för att prioritera användaren.
 
-## Vibe code
+### Vibe code
 Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungerar som en heat map. Även fast detta inte är skapat med hjälp av Chart.js och inte är funktionell ännu så är vi närmare det resultat som vi är ute efter. 
 
 <img width="484" height="145" alt="Screenshot 2025-12-11 at 16 57 57" src="https://github.com/user-attachments/assets/d056914d-9b5b-47f9-b8bc-c1f71c63b33c" />
