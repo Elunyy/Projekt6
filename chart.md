@@ -154,3 +154,72 @@ ctx.fillText('text', 190, 90); //draw filled text at x, y
 
 
 ## Charts
+Vi hade först lite svårt att få chartsen att fungera frånn Chart.js men det fungerade när vi la in följande länk i ```<head>```delen <img width="457" height="27" alt="Screenshot 2025-12-11 at 16 59 16" src="https://github.com/user-attachments/assets/a5014407-348f-4670-bbf0-35e25078dc2c" /> då fick vi följande bar chart att fungera
+
+<img width="1031" height="525" alt="Screenshot 2025-12-11 at 14 36 25" src="https://github.com/user-attachments/assets/ea453b30-bc45-4a19-8c6d-5a1c1cc9966f" />
+
+denna kan man också modifiera genom att ändra på koden
+* type: doughnut/line exempelvis
+* labels: har vi ändrat till veckodagarna i vårt exempel
+* data: förändrar höjdn på stapeln beroende på data
+```javascript
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      datasets: [{
+        label: '# of Votes',
+        data: [12, 19, 3, 5, 2, 3],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+```
+Efter vi fick det att fungera ville vi anpassa en chart som passar till vår målgrupp och den typ av kunskap vi vill visa. Vi kom fram till att en stacked bar chart hade kunnat ge användaren användbar information. Tanken var att man kan få en veckoöversikt vilka dagar man fått post eller om det skett andra avvikelser under veckan.
+
+<img width="655" height="293" alt="Screenshot 2025-12-11 at 15 40 17" src="https://github.com/user-attachments/assets/2789e532-bf84-46c6-930b-d258e43537ae" />
+
+Men även fast detta också är kunskap för anvädaren att kunna se en överblick på veckan så kom vi fram till att prioriteten är det orginella diagrammet som visar när det är mest troligt att du får posten på dagen. Därför har vi valt att återgå till att skapa det diagrammet för att prioritera användaren.
+
+Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungerar som en heat map. Även fast detta inte är skapat med hjälp av Chart.js och inte är funktionell ännu så är vi närmare det resultat som vi är ute efter. 
+
+<img width="484" height="145" alt="Screenshot 2025-12-11 at 16 57 57" src="https://github.com/user-attachments/assets/d056914d-9b5b-47f9-b8bc-c1f71c63b33c" />
+
+```
+<script>
+  const viewStart = 8 * 60;   // 08:00
+  const viewEnd   = 17 * 60;  // 18:00
+  const total = viewEnd - viewStart;
+
+  const mailLikelihood = [];
+  for(let m=0; m<total; m++){
+    const t = viewStart + m;
+    const hour = t / 60;
+    const center = 15;
+    const dist = Math.abs(hour - center);
+    const val = Math.max(0, 1 - dist/2);
+    mailLikelihood.push(val);
+  }
+  
+  function renderGradient(data){
+    const stops = [];
+    for(let i=0; i<data.length; i++){
+      const pct = (i / (data.length - 1)) * 100;
+      const intensity = data[i];
+      const color = `rgba(70,150,255,${0.8 * intensity})`;
+      stops.push(`${color} ${pct}%`);
+    }
+
+```
+
