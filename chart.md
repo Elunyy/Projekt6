@@ -199,7 +199,7 @@ Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungera
 
 <img width="484" height="145" alt="Screenshot 2025-12-11 at 16 57 57" src="https://github.com/user-attachments/assets/d056914d-9b5b-47f9-b8bc-c1f71c63b33c" />
 
-```
+```javascript
 <script>
   const viewStart = 8 * 60;   // 08:00
   const viewEnd   = 17 * 60;  // 18:00
