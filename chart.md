@@ -161,10 +161,13 @@ Med hjälp av den fick vi följande bar chart att fungera:
 
 <img width="1031" height="525" alt="Screenshot 2025-12-11 at 14 36 25" src="https://github.com/user-attachments/assets/ea453b30-bc45-4a19-8c6d-5a1c1cc9966f" />
 
-denna kan man också modifiera genom att ändra på koden
+### Ändringar i kod
+
+Detta diagram kan man också modifiera genom att ändra på koden.
 * type: doughnut/line exempelvis
 * labels: har vi ändrat till veckodagarna i vårt exempel
 * data: förändrar höjdn på stapeln beroende på data
+  
 ```javascript
 <script>
   const ctx = document.getElementById('myChart');
