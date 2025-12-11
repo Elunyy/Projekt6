@@ -186,12 +186,15 @@ denna kan man också modifiera genom att ändra på koden
   });
 </script>
 ```
+## Stacked Bar Chart
 Efter vi fick det att fungera ville vi anpassa en chart som passar till vår målgrupp och den typ av kunskap vi vill visa. Vi kom fram till att en stacked bar chart hade kunnat ge användaren användbar information. Tanken var att man kan få en veckoöversikt vilka dagar man fått post eller om det skett andra avvikelser under veckan.
 
 <img width="655" height="293" alt="Screenshot 2025-12-11 at 15 40 17" src="https://github.com/user-attachments/assets/2789e532-bf84-46c6-930b-d258e43537ae" />
 
+### Fokus på målgrupp och användare
 Men även fast detta också är kunskap för anvädaren att kunna se en överblick på veckan så kom vi fram till att prioriteten är det orginella diagrammet som visar när det är mest troligt att du får posten på dagen. Därför har vi valt att återgå till att skapa det diagrammet för att prioritera användaren.
 
+## Vibe code
 Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungerar som en heat map. Även fast detta inte är skapat med hjälp av Chart.js och inte är funktionell ännu så är vi närmare det resultat som vi är ute efter. 
 
 <img width="484" height="145" alt="Screenshot 2025-12-11 at 16 57 57" src="https://github.com/user-attachments/assets/d056914d-9b5b-47f9-b8bc-c1f71c63b33c" />
