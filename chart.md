@@ -118,7 +118,7 @@ age: 25
 ```
 
 ## Canvas
-NyTt från och med HTML5
+Nytt från och med HTML5
 <canvas id="myCanvas"></canvas>
 Genom DOM manipulering kan i rita och måla
 
