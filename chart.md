@@ -1,4 +1,4 @@
-# GENOMGÅNG AV VAD VI HAR LÄRT OSS VECKA 50
+# VAD VI HAR LÄRT OSS VECKA 50
 
 ## Array
 En array kan lagra flera värden i en variabel
@@ -188,6 +188,8 @@ denna kan man också modifiera genom att ändra på koden
 ```
 ## Stacked Bar Chart
 Efter vi fick det att fungera ville vi anpassa en chart som passar till vår målgrupp och den typ av kunskap vi vill visa. Vi kom fram till att en stacked bar chart hade kunnat ge användaren användbar information. Tanken var att man kan få en veckoöversikt vilka dagar man fått post eller om det skett andra avvikelser under veckan.
+
+Den var krångligare att lägga in för då behövde man också lägga in src länken som tidigare och även lägga till kod som var specifik för den charten istället för att den kan ändras beroende på vad man skriver i koden som ovan.
 
 <img width="655" height="293" alt="Screenshot 2025-12-11 at 15 40 17" src="https://github.com/user-attachments/assets/2789e532-bf84-46c6-930b-d258e43537ae" />
 
