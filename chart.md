@@ -231,8 +231,8 @@ Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungera
 
 ```javascript
 <script>
-  const viewStart = 8 * 60;   // 08:00
-  const viewEnd   = 17 * 60;  // 18:00
+  const viewStart = 8 * 60;
+  const viewEnd   = 17 * 60;
   const total = viewEnd - viewStart;
 
   const mailLikelihood = [];
