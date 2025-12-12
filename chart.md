@@ -222,7 +222,7 @@ Anpassad chart efter målgrupp - Stacked bar chart
 Problem: Src länken + specifik kod för just denna chart.
 
 ## Fokus på målgrupp och användare 👤
-Men även fast detta också är kunskap för anvädaren att kunna se en överblick på veckan så kom vi fram till att prioriteten är det orginella diagrammet som visar när det är mest troligt att du får posten på dagen. Därför har vi valt att återgå till att skapa det diagrammet för att prioritera användaren.
+Men även fast detta också är kunskap för anvädaren att kunna se en överblick på veckan så kom vi fram till att prioriteten är det orginella diagrammet som visar när det är mest troligt att du får posten på dagen. Därför har vi valt att återgå till att skapa det orginella diagrammet för att prioritera användaren.
 
 ### Vibe code
 Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungerar som en heat map. Även fast detta inte är skapat med hjälp av Chart.js och inte är funktionell ännu så är vi närmare det resultat som vi är ute efter. 
