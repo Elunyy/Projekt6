@@ -1,4 +1,4 @@
-# VAD VI HAR LÄRT OSS VECKA 50
+# VAD VI HAR LÄRT OSS VECKA 50 👩‍💻
 
 ## Array
 En array kan lagra flera värden i en variabel
@@ -153,21 +153,43 @@ ctx.fillText('text', 190, 90); //draw filled text at x, y
 ```
 
 
-## Charts
-Vi hade först lite svårt att få chartsen att fungera frånn Chart.js men det fungerade när vi la in följande länk i ```<head>```delen 
+## Charts 📊📈
+### Vad är charts?
+
+Charts är olika diagram som används för att visualisera data på webben.
+För att göra det enkelt använder man bibliotek som Chart.js, ett JavaScript-baserat verktyg med färdiga funktioner för att rita olika typer av diagram.
+
+### Hur funkar det?
+
+**1.** HTML – skapar själva ytan där diagrammet visas, en canvas:
+
+```<canvas id="myChart"></canvas>```
+
+**2.** Chart.js – laddas in via en ```<script>```-länk i ```<head>```
+
+Webbläsaren behöver denna för att veta vad ```new Chart()``` betyder.
+
+**3.** JavaScript – skapar/ritar själva diagrammet genom att ange type, labels och data.
+
+
+### Problem 😓
+
+Vi hade först lite svårt att få chartsen att fungera från Chart.js eftersom vi inte fick med länken. Chart.js är inte inbyggt i webbläsaren, så man måste ”ladda hem” biblioteket från nätet, genom att länka till det. Så fort vi la in följande länk i ```<head>``` delen så fungerade charten
 <img width="457" height="27" alt="Screenshot 2025-12-11 at 16 59 16" src="https://github.com/user-attachments/assets/a5014407-348f-4670-bbf0-35e25078dc2c" /> 
+
 
 Med hjälp av den fick vi följande bar chart att fungera:
 
 <img width="1031" height="525" alt="Screenshot 2025-12-11 at 14 36 25" src="https://github.com/user-attachments/assets/ea453b30-bc45-4a19-8c6d-5a1c1cc9966f" />
 
-### Ändringar i kod
+### Ändringar i kod 
 
-Detta diagram kan man också modifiera genom att ändra på koden.
-* type: doughnut/line exempelvis
-* labels: har vi ändrat till veckodagarna i vårt exempel
-* data: förändrar höjdn på stapeln beroende på data
-  
+Detta diagram kan man modifiera genom att ändra på koden.
+* type: bestämmer vilken sorts diagram (bar, line, doughnut, pie, etc.)
+* labels: text under varje stapel, vi ändrade till veckodagarna i vårt exempel
+* data: värderna som förändrar höjden på staplarna
+
+
 ```javascript
 <script>
   const ctx = document.getElementById('myChart');
@@ -199,7 +221,7 @@ Anpassad chart efter målgrupp - Stacked bar chart
 
 Problem: Src länken + specifik kod för just denna chart.
 
-## Fokus på målgrupp och användare
+## Fokus på målgrupp och användare 👤
 Men även fast detta också är kunskap för anvädaren att kunna se en överblick på veckan så kom vi fram till att prioriteten är det orginella diagrammet som visar när det är mest troligt att du får posten på dagen. Därför har vi valt att återgå till att skapa det diagrammet för att prioritera användaren.
 
 ### Vibe code
