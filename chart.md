@@ -1,4 +1,4 @@
-# VAD VI HAR LÄRT OSS VECKA 50 👩‍💻
+# LÄRDOMAR VECKA 50 👩‍💻
 
 ## Array
 En array kan lagra flera värden i en variabel
