@@ -227,7 +227,8 @@ Men även fast detta också är kunskap för anvädaren att kunna se en överbli
 ### Vibe code
 Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungerar som en heat map. Även fast detta inte är skapat med hjälp av Chart.js och inte är funktionell ännu så är vi närmare det resultat som vi är ute efter. 
 
-<img width="484" height="145" alt="Screenshot 2025-12-11 at 16 57 57" src="https://github.com/user-attachments/assets/d056914d-9b5b-47f9-b8bc-c1f71c63b33c" />
+<img width="484" height="143" alt="Screenshot 2025-12-12 at 10 43 04" src="https://github.com/user-attachments/assets/4ffb76be-cde2-4f06-9885-38e866f5fbd3" />
+
 
 ```javascript
 <script>
@@ -239,7 +240,7 @@ Med hjälp av vibe coding eller Co-pilot i VScode har vi nu en chart som fungera
   for(let m=0; m<total; m++){
     const t = viewStart + m;
     const hour = t / 60;
-    const center = 15;
+    const center = 12;
     const dist = Math.abs(hour - center);
     const val = Math.max(0, 1 - dist/2);
     mailLikelihood.push(val);
