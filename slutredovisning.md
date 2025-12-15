@@ -6,6 +6,7 @@
 - kontexten ("En beskrivning och analys av användare och kontex")
 
 Att utveckla en brevlåda med magnetsensor som kommunicerar när posten har kommit eller när brevlådan öppnats. Systemet samlar in data som visualiseras via en webbplats för att skapa förståelse och kunskap hos användaren kring postleverans. (?)
+I detta projket har vi utvecklat en smart brevlåda 
 
 ## Brevlådan steg för steg
 
