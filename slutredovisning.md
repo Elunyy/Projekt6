@@ -30,7 +30,7 @@ Systemet består av:
 
 - Magnetsensor (NO – Normally Open)
 
-- Mikrokontroller
+- Mikrokontroller NodeMCU (med ESP8266 processor)
 
 - Plusivo-kit (kablar, motstånd, breadboard)
 
@@ -38,7 +38,7 @@ Systemet består av:
 
 - Dator
 
-- Självfärstande kardborreband
+- Självhäftande kardborreband
 
 - Plastbehållare
 
