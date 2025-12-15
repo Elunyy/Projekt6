@@ -48,3 +48,4 @@ Systemet består av:
 ### 4. Koppla ...
 ### 5. Arduino kod
 ### 6. Visualisering på webbsidan
+### 7. Montering
