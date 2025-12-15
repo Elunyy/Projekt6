@@ -45,6 +45,11 @@ Systemet består av:
 - Plastbehållare
 
 ### 3. Installera Arduino IDE
+- Installera Arduino IDE
+- Instalera ESP8266
+- Koppla med USB-kabel
+- Välj port
+- Uplode 
 ### 4. Koppla ...
 ### 5. Arduino kod
 
