@@ -45,6 +45,6 @@ Systemet består av:
 - Plastbehållare
 
 ### 3. Installera Arduino IDE
-### 4. Koppla in Arduino till dator
+### 4. Koppla ...
 ### 5. 
 ### 6. 
