@@ -28,6 +28,10 @@ Systemet består av:
 
 - Brevlåda (valfri modell)
 
+- Dator
+
+- Programmeringsprogrammet Arduino IDE
+
 - Magnetsensor (NO – Normally Open)
 
 - Mikrokontroller NodeMCU (med ESP8266 processor)
@@ -36,13 +40,11 @@ Systemet består av:
 
 - USB-kabel
 
-- Dator
-
 - Självhäftande kardborreband
 
 - Plastbehållare
 
-### 3. 
-### 4.
+### 3. Installera Arduino IDE
+### 4. Koppla in Arduino till dator
 ### 5. 
 ### 6. 
