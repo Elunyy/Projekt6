@@ -49,10 +49,9 @@ Systemet består av:
 - Välj *Products* -> *Arduino IDE* -> *DOWNLOAD*
 - Installera programmet
 
-# 4. Koppla magnetsensorn till mikrokontrollen 
-- Board
-- 
-Bild 
+### 4. Koppla magnetsensorn till mikrokontrollen 
+(Bild på boarden, digital/vanlig)
+(visa hur kopplingen ser ut)
 
 
 
@@ -111,8 +110,8 @@ void loop() {
 
 }
 ```
-
-### 6. Visualisering på webbsidan
+### 6. WiFi koppling?
+### 7. Visualisering på webbsidan
 (kod och bilder från hur webbsidan ser ut)
-### 7. Montering
+### 8. Montering
 (bilder och förklaringar)
