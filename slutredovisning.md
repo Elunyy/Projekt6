@@ -46,5 +46,5 @@ Systemet består av:
 
 ### 3. Installera Arduino IDE
 ### 4. Koppla ...
-### 5. 
-### 6. 
+### 5. Arduino kod
+### 6. Visualisering på webbsidan
