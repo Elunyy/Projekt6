@@ -6,7 +6,8 @@
 
 //DOOR PIN
 #define Sensor  4
-int prevsensorValue;    // previous state of door sensor
+bool prevsensorValue;
+bool sensorValue;  
 
 //WIFI 
 const char* ssid = "MDU_guest"; // "Ditt ssid"
@@ -53,8 +54,8 @@ void setup() {
 
   pinMode(Sensor, INPUT_PULLUP);
 
-  sensorValue = digitalRead(Sensor);
-  prevsensorValue = sensorValue;
+  // sensorValue = digitalRead(Sensor);
+  // // prevsensorValue = sensorValue;
 
   // ANSLUT TILL WIFI 
   WiFi.begin(ssid, password);
@@ -86,8 +87,8 @@ void loop() {
  mqttClient.poll();
  timeClient.update();
 
+sensorValue  = digitalRead(Sensor); // läser nytt state
  prevsensorValue = sensorValue;     // sparar sista state 
-  sensorValue  = digitalRead(Sensor); // läser nytt state
 
 if (prevsensorValue == 0 && sensorValue == 1) {
     Serial.println("Open");
