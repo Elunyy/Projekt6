@@ -2,9 +2,6 @@
 
 ## Projektöversikt
 
-- kontexten ("En beskrivning och analys av användare och kontex")
-
-
 I detta projket har vi utvecklat en smart brevlåda med magnetsensor som registrerar och komunicerar när posten har kommit eller när brevlådan senast öppnats. Genom att kombinera hårdvara och mjukvara har vi skapat ett system som samlar in data från en fysisk brevlåda och visullirerar informaionen på en webbplats. 
 
 ### syfte
