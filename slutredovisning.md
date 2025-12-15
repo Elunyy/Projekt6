@@ -47,5 +47,60 @@ Systemet består av:
 ### 3. Installera Arduino IDE
 ### 4. Koppla ...
 ### 5. Arduino kod
+
+```c++ 
+const int Sensor = 13;
+
+bool sensorValue;
+
+bool prevsensorValue;
+
+ 
+
+void setup() {
+
+ 
+
+  pinMode(Sensor, INPUT);
+
+  Serial.begin(115200);
+
+  // int prevsensorValue
+
+}
+
+ 
+
+void loop() {
+
+ 
+
+    prevsensorValue = sensorValue;
+
+    sensorValue = digitalRead(Sensor);  
+
+ 
+
+  if (prevsensorValue == 0 && sensorValue == 1) {
+
+    Serial.println("Open");
+
+    delay(2000);
+
+  }
+
+ 
+
+  if (prevsensorValue == 1 && sensorValue == 0) {
+
+    Serial.println("Closed");
+
+    delay(2000);
+
+  }
+
+}
+```
+
 ### 6. Visualisering på webbsidan
 ### 7. Montering
