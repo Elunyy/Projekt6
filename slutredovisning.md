@@ -45,11 +45,9 @@ Systemet består av:
 - Plastbehållare
 
 ### 3. Installera Arduino IDE
-- Installera Arduino IDE
-- Instalera ESP8266
-
-
-
+- Sök på "https://www.arduino.cc/"
+- Välj *Products* -> *Arduino IDE* -> *DOWNLOAD*
+- Installera programmet
 
 # 4. Koppla magnetsensorn till mikrokontrollen 
 - Board
@@ -58,7 +56,7 @@ Bild
 
 
 
-### 5. Arduino kod
+### 5. Arduino kod (FYLLA PÅ MED KOD)
 
 ```c++ 
 const int Sensor = 13;
@@ -115,4 +113,6 @@ void loop() {
 ```
 
 ### 6. Visualisering på webbsidan
+(kod och bilder från hur webbsidan ser ut)
 ### 7. Montering
+(bilder och förklaringar)
