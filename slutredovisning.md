@@ -8,7 +8,11 @@ I detta projket har vi utvecklat en smart brevlåda med magnetsensor som registr
 Syftet med projketet är att skapa förstålse, trygghet och kunskap hos användaren kring postleveransen. Genom att få information om när brevlådan öppnas eller när posten anländer kan användaren spara tid och energi. 
 
 ### kontext 
-Projektet riktar sig till personer som vill ha bättre koll över sin post, exempel ..... 
+Projektet är utformat för att underlätta posthämtningen och skapa en mer behaglig upplevelse för användarens. Målgruppen bestor av personer som har brevlådan en bitt bort. Systemet är särskilt användbart för personer med rörelsesvårigheter, där det kan vara fysiskt ansträngande och tidskrävande att gå till brevlådan i onödan. I dessa situationer kan användaren först kontrollera webbplatsen för att se om posten har kommit, vilket minskar onödig förflyttningar och sparar energi. 
+Även personer utan funktionsnedsättningar kan dra nytta av systemet, till exempel väntan på viktig post och undervika att gå ut i dåligt väder.
+
+
+
 
 ## Brevlådan steg för steg
 
