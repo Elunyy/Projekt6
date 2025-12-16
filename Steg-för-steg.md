@@ -1,37 +1,20 @@
-# Steg för steg
+# *MailMinder*
 
 ## Projektöversikt
+I detta projekt har vi utvecklat en smart brevlåda, *MailMinder*, utrustad med en magnetsensor som registrerar och kommunicerar när posten har kommit samt när brevlådan senast har öppnats. Genom att kombinera hårdvara och mjukvara har vi skapat ett system som samlar in data från en fysisk artefakt och visualiserar informationen på en webbplats, vilket möjliggör ökad insyn och förståelse för postleveransen.
 
-I detta projket har vi utvecklat en smart brevlåda med magnetsensor som registrerar och komunicerar när posten har kommit eller när brevlådan senast öppnats. Genom att kombinera hårdvara och mjukvara har vi skapat ett system som samlar in data från en fysisk brevlåda och visullirerar informaionen på en webbplats. 
+### Syfte
+Syftet med projektet är att skapa ökad förståelse, trygghet och kunskap hos användaren kring postleveransen. Genom att tillhandahålla information om när brevlådan öppnas eller när posten anländer kan användaren fatta informerade beslut, vilket i sin tur kan spara både tid och energi i vardagen.
 
-### syfte
-Syftet med projketet är att skapa förstålse, trygghet och kunskap hos användaren kring postleveransen. Genom att få information om när brevlådan öppnas eller när posten anländer kan användaren spara tid och energi. 
+### Kontext 
+Projektet är utformat för att underlätta posthämtning och bidra till en mer tillgänglig och behaglig användarupplevelse. Målgruppen består främst av personer vars brevlåda är placerad på ett längre avstånd från bostaden. Systemet är särskilt relevant för personer med rörelsesvårigheter, där det kan vara både fysiskt ansträngande och tidskrävande att ta sig till brevlådan i onödan.
 
-### kontext 
-Projektet är utformat för att underlätta posthämtningen och skapa en mer behaglig upplevelse för användarens. Målgruppen bestor av personer som har brevlådan en bitt bort. Systemet är särskilt användbart för personer med rörelsesvårigheter, där det kan vara fysiskt ansträngande och tidskrävande att gå till brevlådan i onödan. I dessa situationer kan användaren först kontrollera webbplatsen för att se om posten har kommit, vilket minskar onödig förflyttningar och sparar energi. 
-Även personer utan funktionsnedsättningar kan dra nytta av systemet, till exempel väntan på viktig post och undervika att gå ut i dåligt väder.
-
-
+Genom att först kunna kontrollera informationen via webbplatsen minskar behovet av onödiga förflyttningar, vilket sparar energi och ökar användarens självständighet. Även personer utan funktionsnedsättningar kan dra nytta av systemet, exempelvis vid väntan på viktig post eller för att undvika att gå ut i ogynnsamma väderförhållanden.
 
 
 ## Brevlådan steg för steg
 
-### 1. Översikt
-
-Detta projekt består av en fysisk brevlåda utrustad med en magnetsensor som registrerar när brevlådan öppnas. Sensordata skickas till ett system som visualiserar händelserna på en webbplats. 
-
-Systemet består av:
-
-- Fysisk brevlåda med sensor
-
-- Mikrokontroller
-
-- Datainsamling
-
-- Webbgränssnitt för visualisering
-
-
-### 2. Bill of Materials (BOM)
+### 1. Bill of Materials (BOM)
 För att genomföra projektet användes följade matrial 
 
 - Brevlåda (valfri modell)
@@ -52,18 +35,18 @@ För att genomföra projektet användes följade matrial
 
 - Plastbehållare
 
-### 3. Installera Arduino IDE
+### 2. Installera Arduino IDE
 - Sök på "https://www.arduino.cc/"
 - Välj *Products* -> *Arduino IDE* -> *DOWNLOAD*
 - Installera programmet
 
-### 4. Koppla magnetsensorn till mikrokontrollen 
+### 3. Koppla magnetsensorn till mikrokontrollen 
 (Bild på boarden, digital/vanlig)
 (visa hur kopplingen ser ut)
 
 
 
-### 5. Arduino kod (FYLLA PÅ MED KOD)
+### 4. Arduino kod (FYLLA PÅ MED KOD)
 Koden registrerar förändring i sensorns tillstånd och skriver ut om brevlådan öppnas eller stängs. 
 ```c++ 
 const int Sensor = 13;
@@ -119,8 +102,8 @@ void loop() {
 }
 ```
 
-### 6. WiFi koppling?
-### 7. Visualisering på webbsidan
+### 5. WiFi koppling?
+### 6. Visualisering på webbsidan
 (kod och bilder från hur webbsidan ser ut)
 
 Den insamlade datan visuliserars på webbplats där användaren kan se
@@ -130,6 +113,6 @@ Den insamlade datan visuliserars på webbplats där användaren kan se
  
  
  
-### 8. Montering
+### 7. Montering
 (bilder och förklaringar)
 
