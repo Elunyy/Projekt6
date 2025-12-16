@@ -10,4 +10,4 @@
 
 ## Eline - Canvas
 
-## Charts - Steg för Steg
+## Steg för Steg
