@@ -1,1 +1,70 @@
+```html
+<!DOCTYPE html>
+<html lang="sv">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MailMinder</title>
+  <link rel="icon" type="image/png" href="kuvert.png" />
+  <link rel="stylesheet" href="stylesheet.css" />
+
+</head>
+
+<body>
+  <script src="https://unpkg.com/mqtt@4.3.7/dist/mqtt.min.js"></script>
+  <script src="javascript.js"></script>
+
+  <header>
+    <div class="brand">
+      <img src="kuvert.png" alt="MailMinder logo" class="logo" />
+      <h1>MailMinder</h1>
+    </div>
+    <div id="hamburgare">
+      <img src="meny.png" alt="meny" class="hamburgare" />
+
+    </div>
+  </header>
+
+  <div class="container">
+    <button class="status-btn" type="button">Jag har hämtat posten</button>
+    <button class="activity-btn" type="button">Annan aktivitet</button>
+  </div>
+
+  <div class="container2">
+
+    <div class="cards">
+      <div class="card">
+        <i class="arrow right"></i>
+        <h1 id="veckorubrik">Torsdag</h1>
+        <div class="timeline">
+          <div class="ticks" id="ticks"></div>
+          <div class="track">
+            <div class="v-lines-container" id="vLines"></div>
+            <div class="gradient-layer" id="gradient"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardlog">
+        <i class="arrow right"></i>
+        <h3>Logg</h3>
+        <div class="log-lines">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+```
