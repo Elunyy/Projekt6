@@ -75,7 +75,8 @@ En mikrokontroller hanterar sedan databehandling och kommunikationen mellan sens
 
 ## Karina - Html + Markdown
 
-## Afnan - Css
+## CSS
+CSS är ett språk som används för att bestämma hur en webbsida ska se ut, dess färger, typsnitt och layout.
 
 ## Ikran - Javascript
 
