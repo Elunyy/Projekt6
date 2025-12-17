@@ -1,8 +1,20 @@
 # *MailMinder*
 
+## Projektöversikt
+I detta projekt har vi utvecklat en smart brevlåda, *MailMinder*, utrustad med en magnetsensor som registrerar och kommunicerar när posten har levererats samt när brevlådan senast har öppnats. Genom att kombinera hårdvara och mjukvara har vi skapat ett system som samlar in data från en fysisk artefakt och visualiserar informationen på en webbplats, vilket möjliggör ökad insyn och förståelse för postleveransen.
+
+### Syfte
+Syftet med projektet är att skapa ökad förståelse, trygghet och kunskap hos användaren kring postleveransen. Genom att tillhandahålla information om när brevlådan öppnas eller när posten anländer kan användaren fatta informerade beslut, vilket i sin tur kan spara både tid och energi i vardagen.
+
+### Kontext
+Projektet är utformat för att underlätta posthämtning och bidra till en mer tillgänglig och behaglig användarupplevelse. Målgruppen består främst av personer vars brevlåda är placerad på ett längre avstånd från bostaden. Systemet är särskilt relevant för personer med rörelsesvårigheter, där det kan vara både fysiskt ansträngande och tidskrävande att ta sig till brevlådan i onödan.
+
+Genom att först kunna kontrollera informationen via webbplatsen minskar behovet av onödiga förflyttningar, vilket sparar energi och ökar användarens självständighet. Även personer utan funktionsnedsättningar kan dra nytta av systemet, exempelvis vid väntan på viktig post eller för att undvika att gå ut i ogynnsamma väderförhållanden.
+
+
 ## Brevlådan steg för steg
 
-### 1. Bill of Materials (BOM)
+### Bill of Materials (BOM)
 För att genomföra projektet användes följade matrial 
 
 - Brevlåda (valfri modell)
@@ -23,21 +35,31 @@ För att genomföra projektet användes följade matrial
 
 - Plastbehållare
 
-### 2. Installera Arduino IDE
+### 1. Installera Arduino IDE
 - Sök på "https://www.arduino.cc/"
 - Välj *Products* -> *Arduino IDE* -> *DOWNLOAD*
 - Installera programmet
+- Ladda ner ArduinoMqttClient från Library
 
 ### 3. Koppla magnetsensorn till mikrokontrollen 
 
+🔴 Röd kabel kopplad mellan **+** och **3,3v** på ESP8266
+
+⚫ Svart kabel kopplad mellan **-** och **GND** på ESP8266
+
+🟤 Sensorkablar kopplade mellan **D2** på ESD och **GND** på ESP8266
+
+Se figur 1.
+
 <img src="https://github.com/Elunyy/Projekt6/blob/main/bild/IMG_0004.jpeg" style="width:250px;"/>
 
+*Figur 1. Bild av en breadboard som har en ESP8266, power supply och kablar kopplade.*
 
 
 ### 4. Arduino kod
 Koden registrerar förändring i sensorns tillstånd och skriver ut om brevlådan öppnas eller stängs. 
-```c++ 
 
+```c++ 
 // BIBLIOTEK
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
@@ -107,7 +129,7 @@ void setup() {
 
   // STARTA NTP
   timeClient.begin();
-timeClient.setTimeOffset(3600); // UTC+1 för Sverige
+  timeClient.setTimeOffset(3600); // UTC+1 för Sverige
 
 
   if (!mqttClient.connect(broker, port)) {
@@ -180,6 +202,7 @@ if (prevsensorValue == LOW && sensorValue == HIGH) {
 
   <div class="container">
     <button class="status-btn" type="button">Jag har hämtat posten</button>
+    <button class="activity-btn" type="button">Annan aktivitet</button>
   </div>
 
   <div class="container2">
@@ -261,6 +284,7 @@ if (prevsensorValue == LOW && sensorValue == HIGH) {
       padding: 20px;
       max-width: 300px;
       margin: 0 auto;
+      text-align: center;
     }
 
     .container2 {
@@ -272,11 +296,10 @@ if (prevsensorValue == LOW && sensorValue == HIGH) {
     .status-btn {
       background: rgba(70,150,255,0.5);
       border-radius: 50px;
-      padding: 30px 30px;
+      padding: 20px 20px;
       text-align: center;
       font-family: Arial, sans-serif;
       font-size: 20px;
-      margin-bottom: 10px;
       margin-top: 40px;
       border: none;
       cursor: pointer;
@@ -292,6 +315,33 @@ if (prevsensorValue == LOW && sensorValue == HIGH) {
     }
 
     .status-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .activity-btn {
+      background: rgba(40,100,200,0.7);
+      border-radius: 50px;
+      padding: 15px 25px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+
+    .activity-btn:hover {
+      background: rgba(40,100,200,0.9);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .activity-btn:active {
       transform: translateY(0);
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
@@ -369,6 +419,9 @@ if (prevsensorValue == LOW && sensorValue == HIGH) {
     @media (max-width: 700px) {
       .cards { grid-template-columns: 1fr; }
     }
+
+/*Elines kod nedanför*/
+
 
 .timeline {
   width: 90%;
@@ -460,9 +513,6 @@ if (prevsensorValue == LOW && sensorValue == HIGH) {
 ```
 
 ```js
-// --------------------------------
-// MQTT Configuration and State
-// --------------------------------
 let mqttClient = null;
 const mailboxEvents = []; // Store timestamps when mailbox was opened
 
@@ -686,18 +736,26 @@ initMQTT();
 
 // Button functionality - remove last event when clicked
 function initializeButton() {
-  const button = document.querySelector('.status-btn');
-  if (button) {
-    button.addEventListener('click', () => {
-      if (mailboxEvents.length > 0) {
-        const removedEvent = mailboxEvents.pop();
-        console.log(`Removed event at ${removedEvent.toLocaleTimeString()}`);
-        console.log(`Remaining events: ${mailboxEvents.length}`);
-        updateVisualization();
-      } else {
-        console.log('No events to remove');
-      }
-    });
+  const statusButton = document.querySelector('.status-btn');
+  const activityButton = document.querySelector('.activity-btn');
+  
+  const handleClick = () => {
+    if (mailboxEvents.length > 0) {
+      const removedEvent = mailboxEvents.pop();
+      console.log(`Removed event at ${removedEvent.toLocaleTimeString()}`);
+      console.log(`Remaining events: ${mailboxEvents.length}`);
+      updateVisualization();
+    } else {
+      console.log('No events to remove');
+    }
+  };
+  
+  if (statusButton) {
+    statusButton.addEventListener('click', handleClick);
+  }
+  
+  if (activityButton) {
+    activityButton.addEventListener('click', handleClick);
   }
 }
 
