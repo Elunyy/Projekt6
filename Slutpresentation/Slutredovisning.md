@@ -11,9 +11,69 @@ Genom att först kunna kontrollera informationen via webbplatsen minskar behovet
 
 # Vad har vi lärt oss?
 
-## Mathea - Arduino + Portinitialisering
+## Arduino + Portinitialisering
+### Vad är Arduino?
+Arduino är en öppen källkodsplattform för att bygga elektronikprojekt. Den består av två delar:
 
-tjabba tjena hallå.
+### Hårdvara
+
+Ett litet mikrokort med en mikrokontroller (NodeMCU med mikrokontrollern ESP8266). Microcontroller (μC) är små datorer som består av:
+
+• CPU - Central Processing Unit
+
+• Minne
+
+• Interface - Punkt där två system möts och interaktion uppstår.
+
+• I/O - In- och ut från en Microcontroller
+
+Den är designad för Embedded (inbyggda) systems. 
+Den är som projektets hjärna och kan läsa av knappar, sensorer och signaler, och styra saker som lysdioder, motorer och displayer.
+
+### Mjukvara (Arduino IDE)
+Ett program där du skriver kod, oftast i en förenklad variant av C eller C++. Koden laddas in i kortet och talar om vad det ska göra. 
+Programmet har:
+
+•	En kodeditor där programmet skrivs.
+
+•	Bibliotek med färdiga funktioner för exempelvis sensorer, motorer och displayer.
+
+•	Verktyg för att välja rätt kort och kommunikationsport.
+
+### Portinitialisering
+Inuti mikrokontrollern finns portar vilket är en grupp av pinnar som hör ihop. Portinitialisering betyder att du ställer in hur pinnarna ska bete sig innan du använder dem. Till exempel om pinnen ska vara ingång eller utgång.
+
+När koden är färdig kompileras den. Kompilering innebär att den mänskligt läsbara koden (source code) översätts till maskinkod/binär kod (object code) som mikrokontrollern kan förstå. 
+
+Efter uppladdningen körs programmet direkt på mikrokontrollern och styr hårdvaran enligt instruktionerna i koden. På så sätt kopplas mjukvara och hårdvara samman till ett fungerande inbyggt system.
+
+#### Exempel på vad man kan göra med Arduino:
+
+•	Få en LED att blinka
+
+•	Mäta temperatur eller fuktighet
+
+•	Få in data från en Magnetsensor
+
+### Internet of things (IoT) och Embedded systems.
+
+Med internet of things menas ett nätverk av sammankopplade fysiska enheter inbäddade med sensorer, programvara och annan teknik som gör det möjligt för dem att samla in och utbyta data via internet.
+
+Embedded systems är ryggraden i IoT-enheter. De ska utföra uppgifter inom elektriska system och gör det möjligt för dem att interagera med sin omgivning genom sensorer som samlar in data från omgivningen (t.ex. temperatur eller rörelse). 
+
+IoT-enheter använder protokoll som TCP/IP för att kommunicera med andra enheter eller molnservrar, vilket möjliggör datautbyte i realtid och fjärrstyrning.
+
+En mikrokontroller hanterar sedan databehandling och kommunikationen mellan sensorer och andra komponenter. 
+
+**Electrostatic Discharge (ESD) – positiva och negativa laddningar som söker utjämning och är farligt för elektronik.**
+
+
+
+
+
+
+
+
 
 ## Karina - Html + Markdown
 
