@@ -1,0 +1,267 @@
+ * { box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { margin: 0; background: #f6f8fa; color: #222; }
+ 
+    header {
+      background: rgba(70,150,255,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+ 
+    header h1 {
+      font-size: 22px;
+      margin: 0;
+      font-weight: 600;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo {
+      width: 90px;
+      height: auto;
+      display: block;
+      border-radius: 6px;
+    }
+    
+    .hamburgare {
+      width: 50px;
+      height: auto;
+      display: block;
+      margin-right: 15px;
+    }
+ 
+    .container {
+      padding: 20px;
+      max-width: 300px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .container2 {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+ 
+    .status-btn {
+      background: rgba(70,150,255,0.5);
+      border-radius: 50px;
+      padding: 20px 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      margin-top: 40px;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+
+    .status-btn:hover {
+      background: rgba(70,150,255,0.7);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .status-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .activity-btn {
+      background: rgba(40,100,200,0.7);
+      border-radius: 50px;
+      padding: 15px 25px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+
+    .activity-btn:hover {
+      background: rgba(40,100,200,0.9);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .activity-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+ 
+    h2 { margin-bottom: 4px; }
+    .subtitle { color: #666; margin-bottom: 5px; }
+ 
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+ 
+    .card {
+      background: white;
+      border-radius: 16px;
+      width: 600px;
+      height: 300px;
+      padding: 16px;
+    
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .cardlog {
+      background: white;
+      border-radius: 16px;
+      width: 200px;
+      height: 300px;
+      padding: 16px;
+    
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      overflow-y: scroll;
+    }   
+
+    .card h1{
+      font-size: 50px;
+      margin-bottom: 8px;
+      color: #444;
+    }
+ 
+    .card h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+ 
+    .log-lines div {
+      height: 10px;
+      background: rgba(70,150,255,0.5);
+      border-radius: 6px;
+      margin-bottom: 8px;
+      margin-left:20px;
+        margin-right:20px;
+    }
+
+    .arrow {
+      border: solid #777;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 5px;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%) rotate(-45deg);
+      -webkit-transform: translateY(-50%) rotate(-45deg);      border-radius: 1px;    }
+
+    .right {
+      transform: translateY(-50%) rotate(-45deg);
+      -webkit-transform: translateY(-50%) rotate(-45deg);
+    }
+
+    .card, .cardlog {
+      position: relative;
+    }
+ 
+    @media (max-width: 700px) {
+      .cards { grid-template-columns: 1fr; }
+    }
+
+/*Elines kod nedanför*/
+
+
+.timeline {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.ticks {
+  position: relative;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.tick {
+  position: absolute;
+  font-size: 13px;
+  color: #666;
+  padding-bottom: 4px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.tick::after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 9px;
+  background: #666;
+  opacity: 0.9;
+  border-radius: 2px;
+}
+
+.track {
+  position: relative;
+  height: 45px;
+  border-radius: 6px;
+  background: white;
+  border: 2px solid #e4e4e4;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05) inset;
+}
+
+/* vertical lines that match hour ticks */
+.v-lines-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.v-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* gradient showing mail likelihood */
+.gradient-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+#canvasButton {
+  display: block;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+#canvasButton:hover {
+  opacity: 0.9;
+}
+
+#canvasButton:active {
+  opacity: 0.7;
+}
+    
