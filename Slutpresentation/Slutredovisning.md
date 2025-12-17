@@ -21,6 +21,7 @@ tjabba tjena hallå.
 
 ## Ikran - Javascript
 
-## Eline - Canvas
+## Canvas
+En canvas kan man se som en tom rityta. Ritytan är skapad i html för att kunna visas på hemsidan, medan det är med hjälp av JavaScript saker kan ritas i ritytan.
 
 ## Steg för Steg
