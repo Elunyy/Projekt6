@@ -1,9 +1,6 @@
 # *MailMinder*
 
-Den insamlade datan visuliserars på webbplats där användaren kan se
- * När brevlådan senast öppnads
- * Förväntad tider för postlevrans
- * En logg över tidigare händelse 
+Insamlad data visuliserars på en webbplats där användaren kan se förväntad tider för postlevrans.
 
 ## Brevlådan steg för steg
 
@@ -162,7 +159,7 @@ if (prevsensorValue == LOW && sensorValue == HIGH) {
 
 ### 5. Visualisering på webbsidan
 
-<img src="https://github.com/Elunyy/Projekt6/blob/main/bild/Screenshot%202025-12-16%20at%2014.53.25.png" style="width:1000px;"/>
+<img src="https://github.com/Elunyy/Projekt6/blob/main/bild/Screenshot%202025-12-17%20at%2012.54.30.png" style="width:1000px;"/>
 
 #### HTML
 
