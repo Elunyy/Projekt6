@@ -9,8 +9,6 @@ Målgruppen består främst av personer vars brevlåda är placerad på ett län
 
 Genom att först kunna kontrollera informationen via webbplatsen minskar behovet av onödiga förflyttningar, vilket sparar energi och ökar användarens självständighet. Även personer utan funktionsnedsättningar kan dra nytta av systemet, exempelvis vid väntan på viktig post eller för att undvika att gå ut i ogynnsamma väderförhållanden.
 
-# Vad har vi lärt oss?
-
 ## Arduino + Portinitialisering
 ### Vad är Arduino?
 Arduino är en öppen källkodsplattform för att bygga elektronikprojekt. Den består av två delar:
