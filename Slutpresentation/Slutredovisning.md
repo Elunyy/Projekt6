@@ -67,12 +67,6 @@ En mikrokontroller hanterar sedan databehandling och kommunikationen mellan sens
 
 
 
-
-
-
-
-
-
 ## HTML och Markdown
 
 ### Vad är HTML?
@@ -190,6 +184,10 @@ Det används ofta för:
 ```html
 <p>Hej</p>
 ```
+## Canvas
+En canvas kan man se som en tom rityta. Ritytan är skapad i html för att kunna visas på hemsidan, medan det är med hjälp av JavaScript saker kan ritas i ritytan.
+
+Vi gör en kort demo!
 
 
 ## CSS
