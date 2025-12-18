@@ -29,7 +29,7 @@ Den är designad för Embedded (inbyggda) systems.
 Den är som projektets hjärna och kan läsa av knappar, sensorer och signaler, och styra saker som lysdioder, motorer och displayer.
 
 ### Mjukvara (Arduino IDE)
-Ett program där du skriver kod, oftast i en förenklad variant av C eller C++. Koden laddas in i kortet och talar om vad det ska göra. 
+Ett program där du skriver kod, i en förenklad variant C++. Koden laddas in i kortet och talar om vad det ska göra. 
 Programmet har:
 
 •	En kodeditor där programmet skrivs.
@@ -113,7 +113,7 @@ Exempel:
 - `<body>` – allt som syns på sidan
 
 Head kan även innehålla:
-- metadata (t.ex så att man får å, ä, ö)
+
 - typsnitt
 - anpassning för mobil
 - ikoner
