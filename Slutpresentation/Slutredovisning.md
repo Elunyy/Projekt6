@@ -205,9 +205,7 @@ Talar om vilken HTML element som ska stylas det kan vara exempel rubriker, styck
 * (value) Värde - hur det ska ändras 
 ```
 
-color: red;
-font-size: 16px;
-
+background-color: green;
 
 ```
 
