@@ -773,4 +773,4 @@ window.addTestEvent = function() {
 
 Sensormodulen läggs ned i en låda som satts upp på kanten av brevlådan med hjälp av kardborreband. De två delarna av sensorerna är ditsatta på locked respektive sidan av brevlådan så att de får kontakt när luckan är stängd.
 
-INSERT IMG
+<img src="https://github.com/Elunyy/Projekt6/blob/main/bild/IMG_0010.jpeg" style= "width:400px">
