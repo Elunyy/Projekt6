@@ -46,8 +46,9 @@ Se figur 1.
 *Figur 1. Bild av en breadboard som har en ESP8266, power supply och kablar kopplade.*
 
 
-### 4. Arduino kod
+### 4. Arduino & MQTT kod
 Koden registrerar förändring i sensorns tillstånd och skriver ut om brevlådan öppnas eller stängs. 
+Här behöver du även ha installerat Mosquitto, vars instruktioner finns på Eclipse Mosquittos webbsida.
 
 ```c++ 
 // BIBLIOTEK
