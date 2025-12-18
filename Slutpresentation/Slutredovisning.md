@@ -238,4 +238,3 @@ En funktion är en del av koden som gör en viss uppgift. Funktionen kan ta emot
 function (namn) {
 console.log(" " + namn);
 ```
-## Steg för 
