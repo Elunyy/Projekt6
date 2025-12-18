@@ -195,7 +195,46 @@ Det används ofta för:
 ## CSS
 CSS är ett språk som används för att bestämma hur en webbsida ska se ut, dess färger, typsnitt och layout.
 
-## Ikran - Javascript
+## Javascript
+
+JavaScript är ett programmeringsspråk som används för att göra webbsidor mer interaktiv och levande. 
+Med hjälp av javaScript kan man till exempel få knappar att fungera, visa olika meddelande och ändra text eller innehåll på en webbsida.
+
+#### Hur funkar JavaScript 
+JavaScript fungerar genom att webbsidan läser koden rad för rad och gör det koden säger.
+När något händer på websiddan, till exempel när man klickar på en knapp kan javaScript reagera direkt.
+JavaScript används även tillsammas med  HTML och  CSS
+
+#### Variabler
+
+här skapas variabler med let variabler sparar data i minnet. Text sparas i variabeln namn och ett tal i ålder. Let används när värdet på variabeln kan ändras.
+
+
+let namn = "exempel";
+let ålder = 0;
+
+
+#### if-sats 
+
+En if-sats används för att proggrammet ska kunna bestämma vilken kod som ska köras. Den  kontrollerar värdet i ålder och kör olika kod beroende på om villkoret är sant eller falskt. På så sätt kan proggrammet göra olika saker i olika situationer.
+
+
+if (villkor) {
+  // kod som körs om sant
+} else {
+  // kod som körs om falskt
+}
+
+
+#### funktioner 
+
+En funktion är en del av koden som gör en viss uppgift. Funktionen kan ta emot ett värde, som kallas parameter för att den kan användas olika sätt. 
+
+´´´c++
+function (namn) {
+console.log(" " + namn);
+´´´
+
 
 ## Canvas
 En canvas kan man se som en tom rityta. Ritytan är skapad i html för att kunna visas på hemsidan, medan det är med hjälp av JavaScript saker kan ritas i ritytan.
