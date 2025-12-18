@@ -208,7 +208,7 @@ JavaScript används även tillsammas med  HTML och  CSS
 Här skapas variabler med let variabler sparar data i minnet. Text sparas i variabeln namn och ett tal i ålder. Let används när värdet på variabeln kan ändras.
 
 ```c+
-t namn = "exempel";
+let namn = "exempel";
 let ålder = 0;
 
 
