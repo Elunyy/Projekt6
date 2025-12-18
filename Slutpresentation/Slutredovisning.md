@@ -216,7 +216,7 @@ let ålder = 0;
 
 
 ```
-### if-sats 
+### If-sats 
 
 En if-sats används för att proggrammet ska kunna bestämma vilken kod som ska köras. Den  kontrollerar värdet i ålder och kör olika kod beroende på om villkoret är sant eller falskt. På så sätt kan proggrammet göra olika saker i olika situationer.
 
@@ -230,14 +230,14 @@ if (villkor) {
 
 
 ```
-#### funktioner 
+#### Funktioner 
 
 En funktion är en del av koden som gör en viss uppgift. Funktionen kan ta emot ett värde, som kallas parameter för att den kan användas olika sätt. 
 
-´´´
+
 
 ```c++
 function (namn) {
-console.log(" " + naconsole.log(" " + namn);as kan man se som en tom rityta. Ritytan är skapad i html för att kunna visas på hemsidan, medan det är med hjälp av JavaScript saker kan ritas i ritytan.
+console.log(" " + namn);
 ```
 ## Steg för 
