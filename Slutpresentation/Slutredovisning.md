@@ -190,7 +190,7 @@ Casacading Style Sheets är ett språk som används för att bestämma hur en we
 
 
 ### Varför används Css?
-Css används för att bland annat göra webbplatsen snyggare, strukturerad, tydlig och gör texten lätt att läsa.
+Css används för att bland annat göra webbplatsen strukturerad, snyggare och lätt att läsa.  
 
 ### sytnax
 
