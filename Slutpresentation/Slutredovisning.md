@@ -233,7 +233,7 @@ Eternal Css skrivs i en separat fil, till exempel i **Style.Css** som sedan kopp
 Inline Css skrivs direkt in i HTMl-element 
 
 ```c
-<p style="color: green;">Detta är en text</p>
+<p style="color: green;">    </p>
 ```
 
 ## Javascript
