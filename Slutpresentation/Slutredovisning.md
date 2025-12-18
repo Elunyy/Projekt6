@@ -185,12 +185,12 @@ Det används ofta för:
 <p>Hej</p>
 ```
 
-## Css
+## CSS
 Casacading Style Sheets är ett språk som används för att bestämma hur en webbsida ska se ut, dess färger, typsnitt, layout och storlek på text och ruta 
 
 
-### Varför används Css?
-Css används för att bland annat göra webbplatsen strukturerad, snyggare och lätt att läsa.  
+### Varför används CSS?
+ CSS används för att bland annat göra webbplatsen strukturerad, snyggare och lätt att läsa.  
 
 ### sytnax
 
@@ -209,8 +209,8 @@ background-color: green;
 
 ```
 
-### Internal Css
-Internal Css skrivs i HTML-filen inne i **<style>** i **<Head>**
+### Internal CSS
+Internal CSS skrivs i HTML-filen inne i **<style>** i **<Head>**
 
 
 ```c++
@@ -222,13 +222,13 @@ Internal Css skrivs i HTML-filen inne i **<style>** i **<Head>**
 </style>
 
 ```
-## External Css
-Eternal Css skrivs i en separat fil, till exempel i **Style.Css** som sedan kopplas till HTML-filen 
+## External CSS
+Eternal CSS skrivs i en separat fil, till exempel i **Style.Css** som sedan kopplas till HTML-filen 
 ```
 <link rel="stylesheet" href="style.css">
 ```
-### Inline Css
-Inline Css skrivs direkt in i HTMl-element 
+### Inline CSS
+Inline CSS skrivs direkt in i HTMl-element 
 
 ```c
 <p style="color: green;">    </p>
