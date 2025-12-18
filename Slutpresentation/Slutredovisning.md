@@ -194,7 +194,7 @@ Casacading Style Sheets är ett språk som används för att bestämma hur en we
 
 ### sytnax
 
-Css bestor av **selektorer** och **deklarationer**  
+CSS bestor av **selektorer** och **deklarationer**  
 
 ### Selector 
 Talar om vilken HTML element som ska stylas det kan vara exempel rubriker, stycken.
