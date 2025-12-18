@@ -185,8 +185,56 @@ Det används ofta för:
 <p>Hej</p>
 ```
 
-## CSS
-CSS är ett språk som används för att bestämma hur en webbsida ska se ut, dess färger, typsnitt och layout.
+## Css
+Casacading Style Sheets är ett språk som används för att bestämma hur en webbsida ska se ut, dess färger, typsnitt, layout och storlek på text och ruta 
+
+
+### Varför används Css?
+Css används för att bland annat göra webbplatsen snyggare, strukturerad, tydlig och gör att texten är lättare att läsa.
+
+### sytnax
+
+Css bestor av **selektorer** och **deklarationer**  
+
+### Selector 
+Talar om vilken HTML element som ska stylas det kan vara exempel rubriker, stycken.
+
+### Deklarationer
+
+* (property) egenskap -  vad som ska ändras 
+* (value) Värde - hur det ska ändras 
+```
+
+color: red;
+font-size: 16px;
+
+
+```
+
+### Internal Css
+Internal Css skrivs i HTML-filen inne i **(style)** i **(Head)**
+
+
+```c++
+
+<style>
+  body {
+    background-color: brown;
+  }
+</style>
+
+```
+## External Css
+Eternal Css skrivs i en separat fil, till exempel i **Style.Css** som sedan kopplas till HTML-filen 
+```
+<link rel="stylesheet" href="style.css">
+```
+### Inline Css
+Inline Css skrivs direkt in i HTMl-element 
+
+```c
+<p style="color: green;">Detta är en text</p>
+```
 
 ## Javascript
 
