@@ -48,7 +48,12 @@ Se figur 1.
 
 ### 4. Arduino & MQTT kod
 Koden registrerar förändring i sensorns tillstånd och skriver ut om brevlådan öppnas eller stängs. 
-Här behöver du även ha installerat Mosquitto, vars instruktioner finns på Eclipse Mosquittos webbsida.
+
+Du behöver göra följande: 
+* Installera Mosquitto, vars instruktioner finns på Eclipse Mosquittos webbsida.
+* Uppdatera till dit ssid och lösenord i Arduino-koden för att koppla till Wifi.
+* Ladda upp koden till ESP8266 med hjälp av usb.
+* Dra ur usb sladd och koppla på annan strömkälla för att sedan skicka data trådlöst.
 
 ```c++ 
 // BIBLIOTEK
@@ -63,8 +68,8 @@ bool prevsensorValue;
 bool sensorValue;  
 
 //WIFI 
-const char* ssid = "MDU_guest"; // "Ditt ssid"
-const char* password = "Frozen202512"; // "Ditt lösenord"
+const char* ssid = " "; // "Ditt ssid"
+const char* password = " "; // "Ditt lösenord"
 
 // MQTT
 const char* mqtt_server = "10.132.171.30"; // "DIn IP"
