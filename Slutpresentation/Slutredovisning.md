@@ -244,7 +244,7 @@ Med hjälp av javaScript kan man till exempel få knappar att fungera, visa olik
 #### Hur funkar JavaScript 
 JavaScript fungerar genom att webbsidan läser koden rad för rad och gör det koden säger.
 När något händer på websiddan, till exempel när man klickar på en knapp kan javaScript reagera direkt.
-JavaScript används även tillsammas med  HTML och  CSS
+JavaScript används även tillsammas med  HTML och  Css
 
 #### Variabler
 
