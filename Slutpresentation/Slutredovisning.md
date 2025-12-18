@@ -73,7 +73,124 @@ En mikrokontroller hanterar sedan databehandling och kommunikationen mellan sens
 
 
 
-## Karina - Html + Markdown
+## HTML och Markdown
+
+### Vad är HTML?
+
+**HTML (HyperText Markup Language)** är språket som används för att **bygga strukturen på en webbsida**.
+
+Det är alltså skelettet på en sida – texter, rubriker, bilder, länkar osv.
+
+HTML skrivs med **taggar** som talar om vad något är.
+
+Exempel:
+
+``` html
+<p>Hej världen</p>
+```
+
+- `<p>` = starttagg
+
+- `</p>` = sluttagg
+
+- Texten däremellan är innehållet
+
+### Grundstruktur
+
+``` html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Min sida</title>
+  </head>
+  <body>
+    <h1>Hej!</h1>
+    <p>Detta är en text.</p>
+  </body>
+</html>
+```
+
+- `<!DOCTYPE html>` – säger att det är HTML5
+
+- `<html>` – hela dokumentet
+
+- `<head>` – information om sidan (titel, metadata)
+
+- `<body>` – allt som syns på sidan
+
+Head kan även innehålla:
+- metadata (t.ex så att man får å, ä, ö)
+- typsnitt
+- anpassning för mobil
+- ikoner
+- länka CSS
+- JS
+
+### Vanliga taggar:
+
+``` html
+<h1>Rubrik</h1>      <!-- h1–h6 -->
+<p>Text</p>
+<a href="#">Länk</a>
+<img src="bild.jpg">
+<ul>
+  <li>Lista</li>
+</ul>
+```
+
+### Vad är Markdown?
+
+Markdown är ett enkelt språk för text och dokumentation.
+Det används ofta för:
+
+- README-filer
+
+- GitHub
+
+- Anteckningar
+
+### Grundläggande syntax och exempel
+
+**Rubriker i Markdown**
+
+``` md
+# Stor rubrik
+## Mellanrubrik
+### Mindre rubrik
+```
+**Textstilar**
+
+``` md
+*kursiv*
+**fet**
+~~överstruken~~
+```
+
+**Listor**
+
+``` md
+- Punkt 1
+- Punkt 2
+
+1. Första
+2. Andra
+```
+
+**Länkar & bilder**
+
+``` md
+[Länktext](https://exempel.se)
+
+![Alt-text](bild.png)
+```
+
+**Kodblock**
+
+``` md
+```html
+<p>Hej</p>
+```
+
 
 ## CSS
 CSS är ett språk som används för att bestämma hur en webbsida ska se ut, dess färger, typsnitt och layout.
