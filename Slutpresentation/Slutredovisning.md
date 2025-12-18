@@ -210,7 +210,7 @@ background-color: green;
 ```
 
 ### Internal Css
-Internal Css skrivs i HTML-filen inne i **(style)** i **(Head)**
+Internal Css skrivs i HTML-filen inne i **<style>** i **<Head>**
 
 
 ```c++
