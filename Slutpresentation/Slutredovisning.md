@@ -184,11 +184,6 @@ Det används ofta för:
 ```html
 <p>Hej</p>
 ```
-## Canvas
-En canvas kan man se som en tom rityta. Ritytan är skapad i html för att kunna visas på hemsidan, medan det är med hjälp av JavaScript saker kan ritas i ritytan.
-
-Vi gör en kort demo!
-
 
 ## CSS
 CSS är ett språk som används för att bestämma hur en webbsida ska se ut, dess färger, typsnitt och layout.
@@ -238,3 +233,7 @@ En funktion är en del av koden som gör en viss uppgift. Funktionen kan ta emot
 function (namn) {
 console.log(" " + namn);
 ```
+## Canvas
+En canvas kan man se som en tom rityta. Ritytan är skapad i html för att kunna visas på hemsidan, medan det är med hjälp av JavaScript saker kan ritas i ritytan.
+
+Vi gör en kort demo!
